@@ -1,0 +1,15 @@
+{
+  "short_name": "Opieka nad pieskiem!",
+  "name": "Projekt witryny przyjmowania i relizowania ogłoszeń opieki nad psem",
+  "icons": [
+    {
+      "src": "icon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2235e3",
+  "background_color": "#ffffff"
+}

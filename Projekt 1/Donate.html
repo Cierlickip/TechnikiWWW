@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Project Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="project-header">
+  <div class="project-branding">
+    <h1 class="project-title"><a href="main.html" rel="home"><img src="images/logo.png" alt="logo"></a></h1>
+  </div>
+
+  <div class="menu-controls">
+    <div class="menu-icon">
+      <img src="images/menu-icon.png" alt="menu icon">
+    </div>
+    <div class="menu-close-icon">
+      <img src="images/x.png" alt="menu close icon">
+    </div>
+  </div>
+</header>
+
+<nav class="project-navigation">
+  <div class="project-branding d-none d-lg-block">
+    <h1 class="project-title">
+      <a href="main.html" rel="home">
+        <img src="images/long_menu.png" alt="Logo">
+      </a>
+    </h1>
+  </div><!-- .project-branding -->
+
+  <ul class="main-links">
+    <li><a href="main.html">Home</a></li>
+    <li><a href="AboutUs.html">About Us</a></li>
+    <li class="current-link"><a href="Donate.html">Donate</a></li>
+  </ul>
+</nav><!-- .project-navigation -->
+
+<div class="nav-bar-sep d-lg-none"></div>
+
+<div class="outer-container">
+  <div class="container portfolio-page">
+    <div class="row">
+      <div class="col">
+        <ul class="breadcrumbs flex align-items-center">
+          <li><a href="Donate.html">Donate</a></li>
+        </ul><!-- .breadcrumbs -->
+      </div><!-- .col -->
+    </div><!-- .row -->
+    <div class="row">
+      <form method="post" class="donation-form">
+        <div class="form-container">
+          <div class="form-title">Site Donation</div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="data_2">First name</label>
+              <input type="text" id="data_2" name="data_2" class="form-control"/>
+            </div>
+            <div class="form-group">
+              <label for="data_3">Last name</label>
+              <input type="text" id="data_3" name="data_3" class="form-control"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="data_4">Email</label>
+            <input type="text" id="data_4" name="data_4" class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="data_5">Donation Amount<span style="color: red;"> *</span></label><br/>
+            <input type="radio" id="data_5_0" name="data_5" value="$50"/> $50<br/>
+            <input type="radio" id="data_5_1" name="data_5" value="$100"/> $100<br/>
+            <input type="radio" id="data_5_2" name="data_5" value="$250"/> $250<br/>
+            <input type="radio" id="data_5_3" name="data_5" value="$500"/> $500<br/>
+          </div>
+          <div class="form-group">
+            <label for="data_6">Full Address</label>
+            <textarea id="data_6" name="data_6" rows="3" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <input name="skip_Submit" value="Submit" type="submit"/>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© Doggiepedia - All rights reserved.</p>
+</footer>
+
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/custom.js'></script>
+<script type='text/javascript' src='js/Donate.js'></script>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Work Sans', sans-serif;;
+}
+
+p, input, label {
+	font-family: 'Varela Round', sans-serif;
+}
+
+main {
+	padding: 50px 0;
+}
+
+span {
+	color: red;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.large-button {
+	margin: 10px 0 40px 0;
+	text-align: center;
+}
+
+.large-button p, .large-button button {
+	display: inline-block;
+	padding: 15px 25px;
+	border: 4px solid mediumturquoise;
+	border-radius: 25px;
+	background-color: white;
+	transition: .2s ease-in-out;
+	-webkit-box-shadow: 6px 6px 12px 0px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 6px 6px 12px 0px rgba(66, 68, 90, 1);
+	box-shadow: 6px 6px 12px 0px rgba(66, 68, 90, 1);
+}
+
+.large-button p:hover, .large-button button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+label, input {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input {
+	padding: 10px 20px;
+}
+
+.wrapper-login {
+	display: flex;
+	align-items: center;
+	flex-direction: column; 
+	justify-content: center;
+	width: 100%;
+	min-height: 100%;
+	padding: 20px;
+}
+
+.button-login-submit {
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px 20px;
+	border: 4px solid mediumturquoise;
+	border-radius: 15px;
+	transition: .2s ease-in-out;
+}
+
+.ogloszenie-descript {
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	border: 2px solid #32CD32;
+}
+
+.ogloszenie-header {
+	padding: 15px 20px;
+	background-color: #32CD32;
+}
+
+.ogloszenie-descript-in-progress {
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	border: 2px solid #E31E33;
+}
+
+.ogloszenie-in-progress {
+	padding: 15px 20px;
+	background-color: #E31E33;
+}
+
+.ogloszenie-descript-completed {
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	border: 2px solid mediumturquoise;
+}
+
+.ogloszenie-header-completed {
+	padding: 15px 20px;
+	background-color: mediumturquoise;
+}
+
+.ogloszenie-header h3 {
+	margin: 0;
+	font-size: 1.5em;
+	color: white;
+}
+
+.ogloszenie p {
+	margin: 0;
+}
+
+.ogloszenie .button_1 {
+	text-align: right;
+}
+
+.ogloszenie button {
+	border: 2px solid #000000;
+	border-radius: 20px;
+	padding: 10px 15px;
+}
+
+.first_header {
+	height: 150px;
+	padding: 20px 0;
+	background-color: mediumturquoise;
+	color: white;
+}
+
+.first_header .container, .first_header .row, .first_header .col-md-4 {
+	height: 100%;
+}
+
+.logo {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.first_header .main_text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
+.footer {
+	padding-top: 30px;
+	background-color: mediumturquoise;
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover {
+	color: #d6b0a9;
+}
+
+.footer p {
+	margin: 15px 0;
+}
+
+.footer .container-fluid {
+	background-color: darkgrey;
+}
